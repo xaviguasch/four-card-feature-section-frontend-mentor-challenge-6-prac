@@ -19,6 +19,7 @@
   --fs-18: 1.125rem;
   --fs-20: 1.25rem;
   --fs-24: 1.5rem;
+  --fs-28: 1.75rem;
 
   --fw-extra-light: 200;
   --fw-regular: 400;
@@ -168,6 +169,11 @@ img {
 
   .main {
     padding: 0;
+  }
+
+  .title,
+  .subtitle {
+    font-size: var(--fs-28);
   }
 
   .header-area {
